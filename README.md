@@ -45,6 +45,7 @@ The deepfake detection model uses a sophisticated architecture:
 - pip (Python package manager)
 - 8GB+ RAM for video processing
 - Modern web browser
+- [Dataset](https://www.kaggle.com/datasets/ameencaslam/three-body-dataset)
 
 ## 🔧 Installation
 
@@ -77,7 +78,7 @@ pip install -r requirements.txt
 
 Place the `best_model.keras` file in the root directory of the project.
 
-Note: I trained the model using [🔼](DeepFake_Video_Detection.ipynb)[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/weiji14/deepbedmap/)
+Note: I trained the model using [⬆️](DeepFake_Video_Detection.ipynb)[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/weiji14/deepbedmap/)
 
 ## 🚀 Usage
 
