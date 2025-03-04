@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deepfake Video Detector</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1><i class="fas fa-shield-alt"></i> Deepfake Video Detector</h1>
+            <p class="subtitle">Detect manipulated videos using AI</p>
+        </header>
+        <form id="upload-form" enctype="multipart/form-data">
+            <div class="upload-container">
+                <div class="upload-area" id="drop-zone">
+                    <i class="fas fa-cloud-upload-alt"></i>
+                    <p>Drag & Drop your video or click to upload</p>
+                    <input type="file" name="file" id="video-input" accept="video/*">
+                    <button type="button" class="upload-btn" onclick="document.getElementById('video-input').click()">Choose Video</button>
+                </div>
+                <div class="preview-container hidden" id="preview-container">
+                    <video id="video-preview" controls class="medium-video"></video>
+                    <div class="results-container hidden" id="results-container">
+                        <div class="results" id="results">
+                            <div class="result-info">
+                                <div class="result-status">
+                                    <div id="status-indicator"></div>
+                                    <h3 id="status-text"></h3>
+                                </div>
+                                <div class="accuracy-meter">
+                                    <div class="accuracy-label">Detection Confidence</div>
+                                    <div class="accuracy-bar">
+                                        <div id="accuracy-fill"></div>
+                                    </div>
+                                    <div id="accuracy-text">0%</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button type="submit" id="detect-btn" class="detect-btn" disabled>
+                <i class="fas fa-search"></i> Detect Deepfake
+            </button>
+        </form>
+        <div class="loading hidden" id="loading">
+            <div class="spinner"></div>
+            <p>Analyzing video...</p>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
