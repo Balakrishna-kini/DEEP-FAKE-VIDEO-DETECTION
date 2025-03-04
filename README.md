@@ -76,9 +76,9 @@ pip install -r requirements.txt
 
 4. **Download the pre-trained model**
 
-Place the `best_model.keras` file in the root directory of the project.
+Place the [`best_model.keras`](DeepFake_Video_Detection.ipynb) file in the root directory of the project.
 
-Note: I trained the model using [⬆️](DeepFake_Video_Detection.ipynb)[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/weiji14/deepbedmap/)
+Note: I trained the model using [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/weiji14/deepbedmap/)
 
 ## 🚀 Usage
 
