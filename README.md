@@ -1,4 +1,4 @@
-A deep learning-based web application that detects manipulated (deepfake) videos using a ResNet50-LSTM architecture. This tool helps identify AI-generated or manipulated video content with high accuracy.
+A deep learning-based web application that detects manipulated (deepfake) videos using a ResNet50-LSTM architecture. This tool helps identify AI-generated or manipulated video content with high accuracy..
 
 ##
 
