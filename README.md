@@ -10,7 +10,7 @@ A deep learning-based web application that detects manipulated (deepfake) videos
 - **User-Friendly Interface**: Simple drag-and-drop or file selection for video uploads
 - **Real-Time Analysis**: Processes videos and provides immediate results
 - **Confidence Metrics**: Shows detection confidence percentage for transparency
-- **Responsive Design**: Works on desktop and mobile devices
+- **Responsive Design**: Works on desktop and mobile devices.
 
 ## 🧠 Model Architecture
 
